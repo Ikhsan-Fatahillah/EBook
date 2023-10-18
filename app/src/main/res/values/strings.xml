@@ -2,5 +2,18 @@
     <string name="app_name">ikhsan</string>
     <string name="search">Telusuri dokumen</string>
     <string name="kategori1">Dokumen yang disimpan</string>
-    <string name="judul">Buku saintek SMA</string>
+    <string name="judul1">E-Book SAINTEK</string>
+    <string name="judul2">E-Book SOSHUM</string>
+    <string name="judul3">E-Book KEDINASAN</string>
+    <string name="judul4">E-Book BUMN</string>
+    <string name="user1">50 e-book</string>
+    <string name="user2">35 e-book</string>
+    <string name="user3">30 e-book</string>
+    <string name="user4">25 e-book</string>
+    <string name="kalender1">2018 - 2023</string>
+    <string name="deskripsi1">E-Book Saintek berisi buku-buku sains dan teknologi seperti matematika, kimia, biologi, fisika, bahasa inggris, dan lain-lain.</string>
+    <string name="deskripsi2">E-Book Soshum berisi buku-buku sosial dan hukum seperti ilmu sosial, ilmu hukum, politik, geografi, sejarah, hingga akuntansi dan manajemen.</string>
+    <string name="deskripsi3">E-Book Kedinasan berisi buku-buku tentang tes kedinasan seperti tes SKD, SKB, kesehatan, psikotes, kesemaptaan, hingga wawancara.</string>
+    <string name="deskripsi4">E-Book BUMN berisi buku-buku tentang tes daftar BUMN seperti Tes Kompetensi Bisang (TKB), user interview, social media analytic dan digital mindset.</string>
+
 </resources>

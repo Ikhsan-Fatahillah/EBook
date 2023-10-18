@@ -8,9 +8,9 @@
 
     <androidx.appcompat.widget.SearchView
         android:id="@+id/search_view"
-        android:layout_width="300dp"
+        android:layout_width="330dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/search"
         app:queryHint="@string/search"
@@ -19,10 +19,10 @@
         app:layout_constraintTop_toTopOf="parent">
     </androidx.appcompat.widget.SearchView>
 
-    <Button
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
+    <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="23dp"
         android:background="@drawable/notif"
 
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,9 +30,9 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="80dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:overScrollMode="never"
         android:scrollbars="vertical"
         app:layout_constraintTop_toBottomOf="@+id/search_view">
@@ -53,37 +53,73 @@
                     android:layout_width="140dp"
                     android:layout_height="200dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/ebook_cover"
+                    android:src="@drawable/ebook_cover1"
                     tools:layout_editor_absoluteX="20dp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="@string/judul"
+                    android:text="@string/judul1"
                     android:layout_marginStart="150dp"
-                    android:layout_marginTop="20dp"/>
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"/>
 
-                <androidx.cardview.widget.CardView
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/buku"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginStart="150dp"
+                    />
+
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    app:cardBackgroundColor="@color/white">
+                    android:text="@string/user1"
+                    android:layout_marginStart="178dp"
+                    android:layout_marginTop="42dp"
+                    />
 
-                    <ImageView
-                        android:id="@+id/imageView"
-                        android:layout_width="140dp"
-                        android:layout_height="200dp"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/ebook_cover"
-                        tools:layout_editor_absoluteX="20dp" />
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/kalender"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginStart="150dp"
+                    />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginStart="150dp"
-                        android:layout_marginTop="20dp"
-                        android:text="@string/judul" />
-                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kalender1"
+                    android:layout_marginStart="178dp"
+                    android:layout_marginTop="73dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Deskripsi :"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="103dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/deskripsi1"                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="123dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -96,15 +132,72 @@
                     android:layout_width="140dp"
                     android:layout_height="200dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/ebook_cover"
+                    android:src="@drawable/ebook_cover2"
                     tools:layout_editor_absoluteX="20dp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="@string/judul"
+                    android:text="@string/judul2"
                     android:layout_marginStart="150dp"
-                    android:layout_marginTop="20dp"/>
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/buku"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginStart="150dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user2"
+                    android:layout_marginStart="178dp"
+                    android:layout_marginTop="42dp"
+                    />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/kalender"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginStart="150dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kalender1"
+                    android:layout_marginStart="178dp"
+                    android:layout_marginTop="73dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Deskripsi :"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="103dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/deskripsi2"                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="123dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -117,15 +210,72 @@
                     android:layout_width="140dp"
                     android:layout_height="200dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/ebook_cover"
+                    android:src="@drawable/ebook_cover3"
                     tools:layout_editor_absoluteX="20dp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="@string/judul"
+                    android:text="@string/judul3"
                     android:layout_marginStart="150dp"
-                    android:layout_marginTop="20dp"/>
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/buku"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginStart="150dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user3"
+                    android:layout_marginStart="178dp"
+                    android:layout_marginTop="42dp"
+                    />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/kalender"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginStart="150dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kalender1"
+                    android:layout_marginStart="178dp"
+                    android:layout_marginTop="73dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Deskripsi :"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="103dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/deskripsi3"                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="123dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -138,18 +288,75 @@
                     android:layout_width="140dp"
                     android:layout_height="200dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/ebook_cover"
+                    android:src="@drawable/ebook_cover4"
                     tools:layout_editor_absoluteX="20dp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="@string/judul"
+                    android:text="@string/judul4"
                     android:layout_marginStart="150dp"
-                    android:layout_marginTop="20dp"/>
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/buku"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginStart="150dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user4"
+                    android:layout_marginStart="178dp"
+                    android:layout_marginTop="42dp"
+                    />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/kalender"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginStart="150dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kalender1"
+                    android:layout_marginStart="178dp"
+                    android:layout_marginTop="73dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Deskripsi :"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="103dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/deskripsi4"                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="123dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+
             </androidx.cardview.widget.CardView>
+
         </LinearLayout>
-
 
     </ScrollView>
 
